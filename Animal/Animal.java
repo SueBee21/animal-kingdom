@@ -1,6 +1,4 @@
-
-
-abstract class Animal{
+Abstract class Animal{
     private String animalId;
     private int count;
 }
@@ -8,8 +6,7 @@ abstract class Animal{
 class Fish extends Animal {
     
 }
+
 class Bear extends Animal {
 }
 
-
-}
