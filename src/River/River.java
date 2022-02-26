@@ -12,6 +12,7 @@ public class River {
         int x = rand.nextInt(30);
         if (animalArray[x] == null) {
             animalArray[x] = "fish";
+                        System.out.println(animalArray[x]);
                         fishCount++;
         }
         System.out.println("counting fish " + fishCount + " is index of" + x);  
@@ -21,7 +22,8 @@ public class River {
     while (bearCount < 10) {
         int x = rand.nextInt(30);
         if (animalArray[x] == null) {
-            animalArray[x] = "fish";
+            animalArray[x] = "bear";
+            System.out.println(animalArray[x]);
                         bearCount++;
         }
         System.out.println("counting bear " + bearCount + " is index of" + x);  
